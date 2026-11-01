@@ -26,3 +26,5 @@ Bu proje, kampüsteki etkinlikleri listeleyen, HTML, CSS ve saf JavaScript (DOM 
 | GET | `/api/etkinlikler` | Tüm etkinlikleri JSON formatında döndürür |
 | GET | `/api/etkinlikler?tur=atolye` | Belirtilen türdeki etkinlikleri döndürür |
 | GET | `/api/etkinlikler/:id` | ID'si eşleşen tek bir etkinliği döndürür |
+
+
