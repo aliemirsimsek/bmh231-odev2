@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bozok Kampüs Etkinlik Panosu</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Bozok Etkinlik</div>
+        <nav>
+            <a href="#etkinlikler">Etkinlikler</a>
+            <a href="#oneri">Etkinlik Öner</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="etkinlikler">
+            <h1>Kampüs Etkinlikleri</h1>
+            <div class="filtre-alani">
+                <div class="filtreler">
+                    <button class="filtre-btn secili" data-tur="tümü">Tümü</button>
+                    <button class="filtre-btn" data-tur="atolye">Atölye</button>
+                    <button class="filtre-btn" data-tur="soylesi">Söyleşi</button>
+                    <button class="filtre-btn" data-tur="topluluk">Topluluk</button>
+                </div>
+                <div class="arama-kutusu">
+                    <label for="arama" class="gizli">Etkinlik Ara</label>
+                    <input type="text" id="arama" placeholder="Etkinlik ara...">
+                </div>
+            </div>
+            <div id="kartlar" class="kart-izgarasi">
+                <!-- JS ile API'den çekilip doldurulacak -->
+            </div>
+        </section>
+
+        <section id="oneri">
+            <h2>Etkinlik Öner</h2>
+            <form id="etkinlik-formu">
+                <div class="form-grubu">
+                    <label for="etkinlikAd">Etkinlik Adı</label>
+                    <input type="text" id="etkinlikAd" name="etkinlikAd">
+                </div>
+                <div class="form-grubu">
+                    <label for="etkinlikTarih">Tarih</label>
+                    <input type="date" id="etkinlikTarih" name="etkinlikTarih">
+                </div>
+                <div class="form-grubu">
+                    <label for="etkinlikEposta">İletişim E-posta</label>
+                    <input type="email" id="etkinlikEposta" name="etkinlikEposta">
+                </div>
+                <button type="submit">Öneriyi Gönder</button>
+                <div id="form-hata"></div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Yozgat Bozok Üniversitesi - Bilgisayar Mühendisliği</p>
+    </footer>
+
+    <script src="betik.js"></script>
+</body>
+</html>

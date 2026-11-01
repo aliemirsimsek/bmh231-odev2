@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "baslik": "Unity 3D Oyun Geliştirme Atölyesi",
+    "tur": "atolye",
+    "tarih": "2026-11-10",
+    "yer": "Mühendislik Lab 1",
+    "kontenjan": 40
+  },
+  {
+    "id": 2,
+    "baslik": "TEKNOFEST ve T3 Vakfı Söyleşisi",
+    "tur": "soylesi",
+    "tarih": "2026-11-12",
+    "yer": "Konferans Salonu",
+    "kontenjan": 150
+  },
+  {
+    "id": 3,
+    "baslik": "Girişimcilik: LUPÂ Parfum Hikayesi",
+    "tur": "topluluk",
+    "tarih": "2026-11-15",
+    "yer": "Bozok Girişim Merkezi",
+    "kontenjan": 50
+  },
+  {
+    "id": 4,
+    "baslik": "C/C++ Algoritma ve Veri Yapıları",
+    "tur": "atolye",
+    "tarih": "2026-11-18",
+    "yer": "Mühendislik Lab 2",
+    "kontenjan": 30
+  },
+  {
+    "id": 5,
+    "baslik": "Yapay Zeka ve Gelecek Söyleşisi",
+    "tur": "soylesi",
+    "tarih": "2026-11-20",
+    "yer": "Erdoğan Akdağ Kongre Merkezi",
+    "kontenjan": 300
+  },
+  {
+    "id": 6,
+    "baslik": "Bilgisayar Mühendisliği Tanışma",
+    "tur": "topluluk",
+    "tarih": "2026-11-22",
+    "yer": "Kafeterya",
+    "kontenjan": 120
+  }
+]

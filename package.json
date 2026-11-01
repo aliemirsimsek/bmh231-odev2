@@ -1,0 +1,11 @@
+{
+  "name": "bmh231-odev2",
+  "version": "1.0.0",
+  "description": "Kamp\u00fcs Etkinlik Panosu",
+  "main": "sunucu.js",
+  "scripts": {
+    "start": "node sunucu.js"
+  },
+  "author": "Ali Emir Simsek",
+  "license": "ISC"
+}
